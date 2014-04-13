@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="E:\KPI\Discrete_mathematics\lazarus\fpc\2.6.2\bin\x86_64-win64\fpc.exe" Date="1131445527"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -vewnhi -FiE:\Documents\GitHub\TFMTitles\lib\x86_64-win64 -FuE:\KPI\Discrete_mathematics\lazarus\lcl\units\x86_64-win64\win32 -FuE:\KPI\Discrete_mathematics\lazarus\lcl\units\x86_64-win64 -FuE:\KPI\Discrete_mathematics\lazarus\components\lazutils\lib\x86_64-win64 -FuE:\KPI\Discrete_mathematics\lazarus\packager\units\x86_64-win64 -FuE:\Documents\GitHub\TFMTitles\ -FUE:\Documents\GitHub\TFMTitles\lib\x86_64-win64\ -l -dLCL -dLCLwin32 TFMTitles.lpr"/>
+</CONFIG>

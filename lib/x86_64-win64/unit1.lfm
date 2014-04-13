@@ -1,0 +1,138 @@
+object TFMTForm: TTFMTForm
+  Left = 693
+  Height = 255
+  Top = 134
+  Width = 539
+  Caption = 'TFM Titles List v0.1a'
+  ClientHeight = 255
+  ClientWidth = 539
+  OnCreate = FormCreate
+  LCLVersion = '1.0.14.0'
+  object TitlesList: TListBox
+    Left = 16
+    Height = 120
+    Top = 88
+    Width = 235
+    IntegralHeight = True
+    ItemHeight = 0
+    OnClick = TitlesListClick
+    OnDblClick = TitlesListDblClick
+    TabOrder = 0
+  end
+  object Cheese: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Cheese'
+    OnClick = CheeseClick
+    TabOrder = 1
+  end
+  object Firsts: TButton
+    Left = 104
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Firsts'
+    OnClick = FirstsClick
+    TabOrder = 2
+  end
+  object Saves: TButton
+    Left = 192
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Saves'
+    OnClick = SavesClick
+    TabOrder = 3
+  end
+  object Hardmode: TButton
+    Left = 16
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Hardmode'
+    OnClick = HardmodeClick
+    TabOrder = 4
+  end
+  object Bootcamps: TButton
+    Left = 104
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Bootcamps'
+    OnClick = BootcampsClick
+    TabOrder = 6
+  end
+  object Others: TButton
+    Left = 192
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Others'
+    OnClick = OthersClick
+    TabOrder = 7
+  end
+  object FaveBox: TListBox
+    Left = 288
+    Height = 120
+    Top = 88
+    Width = 235
+    ItemHeight = 0
+    OnClick = FaveBoxClick
+    OnDblClick = FaveBoxDblClick
+    TabOrder = 8
+  end
+  object Fav: TButton
+    Left = 256
+    Height = 25
+    Top = 112
+    Width = 27
+    Caption = '>>'
+    OnClick = FavClick
+    TabOrder = 9
+  end
+  object DelFav: TButton
+    Left = 256
+    Height = 25
+    Top = 160
+    Width = 27
+    Caption = '<<'
+    OnClick = DelFavClick
+    TabOrder = 10
+  end
+  object TitlesListName: TLabel
+    Left = 112
+    Height = 16
+    Top = 72
+    Width = 47
+    Caption = 'Titles list'
+    ParentColor = False
+  end
+  object FavesListName: TLabel
+    Left = 368
+    Height = 16
+    Top = 72
+    Width = 96
+    Caption = 'Favourite titles list'
+    ParentColor = False
+  end
+  object InfoPanel: TPanel
+    Left = 16
+    Height = 25
+    Top = 216
+    Width = 507
+    Caption = 'InfoPanel'
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Help: TButton
+    Left = 368
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Help'
+    OnClick = HelpClick
+    TabOrder = 11
+  end
+end

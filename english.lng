@@ -1,0 +1,36 @@
+#TFMT_Lang_File
+Cheese
+Firsts
+Saves
+Hardmode
+Bootcamp
+Others
+Help
+Titles list
+Favourite titles list
+Welcome! List of favourite titles was loaded.
+Welcome!
+Displaying saves titles.
+Displaying cheese titles.
+Displaying firsts` titles.
+Displaying hard-mode saves titles.
+Displaying bootcamp titles.
+Displaying shop and event titles.
+/title 
+ copied to clipboard
+ added to list of Favourite titles.
+Click the element in Titles List to add it into Favs List.
+ deleted from list of Favourite titles.
+Click the element on Favs List to remove it.
+Русский
+English
+Copy on double click
+TFM Titles List v0.1
+This program contains the whole list of TFM titles.
+By clicking buttons on the top of main window you will load selected titles into the left list.
+By pressing ">>" button selected title will be added to the rigth list ("Favourite titles").
+To remove title from Favourites press "<<" button.
+~~~~~~ToDo~~~~~~
+1) Search panel
+2) Load user`s lang files
+3) Design :D
